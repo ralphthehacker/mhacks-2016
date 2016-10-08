@@ -100,4 +100,4 @@ def noteStateMatrixToMidi(statematrix, name="example"):
 
     midi.write_midifile("{}.mid".format(name), pattern)
 
-midiToNoteStateMatrix("test.mid")
+print(midiToNoteStateMatrix("test.mid"))
